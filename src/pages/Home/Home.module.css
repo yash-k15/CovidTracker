@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (max-width: 770px) {
+    .image{
+        width : 100%;
+    }
+
+    canvas {
+        height: 300px !important;
+    }
+  }

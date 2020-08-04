@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+  
+.image{
+    width : 370px;
+    margin-top : 10px;
+    align-items: center !important;
+}
+
+html {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 770px) {
+    .container {
+        margin : 10%;
+        margin-top: 2%;
+    }
+  
+    .image{
+        width : 100%;
+    }
+  }
+
+
